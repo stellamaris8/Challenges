@@ -1,3 +1,5 @@
+const MayorMenorIgual = ()=>{
+
 let numberA = prompt ("Escribe un número A");
 let numberB = prompt ("Escribe un número B");
 
@@ -12,3 +14,4 @@ else {alert ("number A es menor que number B");
     
     }
  }
+}

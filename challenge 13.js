@@ -1,7 +1,10 @@
-const number1 = 42;
-const number2 = 33;
+const ParImpar= ()=>{
+const numero = prompt ("Escribe un número para saber si es par o impar");
+if(numero%2==0) {
+  alert ("es par")
+} 
+else {
+  alert ("es impar")
+}
 
-number1%2==0?
-console.log ("es par")
-:
-console.log ("es impar")
+}
